@@ -21,5 +21,5 @@ func main() {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving request: %s", r.URL.Path)
-	fmt.Fprintf(w, "Hello, Github Actions!\n")
+	fmt.Fprintf(w, "Hello, Github Actions v2!\n")
 }
